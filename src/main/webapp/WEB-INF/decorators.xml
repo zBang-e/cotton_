@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XML>
+
+<decorators defaultdir="/WEB-INF/views/decorator">
+
+	<decorator name="main" page="default_decorator.jsp">
+		<pattern>/main/*</pattern>
+	<!-- 	<pattern>/board/*</pattern> -->
+		<pattern>/notice/*</pattern>
+		<pattern>/image/*</pattern>
+		<pattern>/member/*</pattern>
+		<pattern>/goods/*</pattern>
+		<pattern>/shop/*</pattern>
+		<pattern>/cart/*</pattern>
+		<pattern>/category/*</pattern>
+		<pattern>/event/*</pattern>
+		<pattern>/wish/*</pattern>
+		<pattern>/qna/*</pattern>
+		<pattern>/review/*</pattern>
+	</decorator>
+	
+<!-- 	<decorator name="admin" page="admin_decorator.jsp"> -->
+<!-- 		<pattern>/admin/*</pattern> -->
+<!-- 	</decorator> -->
+	
+	<!-- 게시판의 대한 요청 레이아웃 선언 -->
+
+	<!-- 데코레이션에서 제외되는 요청을 선언 -->
+
+</decorators>
