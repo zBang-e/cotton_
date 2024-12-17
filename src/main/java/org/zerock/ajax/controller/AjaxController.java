@@ -31,6 +31,6 @@ public class AjaxController {
 		return "member/checkId";
 	}
 	
-
+//// 돼라돼라돼라돼라돼라돼라돼라돼라돼라돼라돼라돼라돼라돼라돼라돼라돼라돼라돼라
  
 }
